@@ -12,8 +12,8 @@ services:
       - key: NODE_VERSION
         value: 24.22.1
 
-      - key: NODE_ENV
-        value: production
+            - key: CLOUDFLARE_DOMAIN
+        value: youpi-pg-tnlb.onrender.com
 
       - key: YOUPI_BIND_HOST
         value: 0.0.0.0
